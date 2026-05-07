@@ -1,4 +1,4 @@
-# 📡 Digital Signal Processing — Python & Jupyter
+# 📡 Digital Signal Processing - Python & Jupyter
 **Gaukhar Assyrzhanova** | Hochschule Schmalkalden, Germany (Academic Mobility 2025–2026)
 
 DSP laboratory work completed during academic exchange at **Hochschule Schmalkalden (HSM), Germany**. All experiments implemented in **Python** using NumPy, SciPy, and Matplotlib inside Jupyter Notebook. Hardware measurements verified with an **Agilent Technologies oscilloscope**.
@@ -21,7 +21,7 @@ DSP laboratory work completed during academic exchange at **Hochschule Schmalkal
 
 ---
 
-### 🔬 Lab 1 — Function Generator & Oscilloscope
+### 🔬 Lab 1 - Function Generator & Oscilloscope
 **File:** `LabworkDSPGAD.pdf` / `DSPLabw_GAUKHAR_group_proj.pdf`
 
 **What it covers:**
@@ -31,7 +31,7 @@ DSP laboratory work completed during academic exchange at **Hochschule Schmalkal
 
 ---
 
-### 🎵 Lab 2 — Sine & Dual Tone Signal Generation + FFT Analysis
+### 🎵 Lab 2 - Sine & Dual Tone Signal Generation + FFT Analysis
 
 **What it covers:**
 - Generated 1 kHz sine wave at fs = 8000 Hz using NumPy
@@ -50,7 +50,7 @@ spec = abs(np.fft.fft(sine_dual))
 
 ---
 
-### 🔧 Lab 3 — FIR Filter Design (Lowpass, Highpass, Bandpass)
+### 🔧 Lab 3 - FIR Filter Design (Lowpass, Highpass, Bandpass)
 
 **What it covers:**
 - Designed 3 FIR filters using `scipy.signal.firwin()` with 33 coefficients
@@ -69,7 +69,7 @@ filtered = scs.lfilter(b_lp, 1, signal)
 
 ---
 
-### 📻 Lab 4 — Real Audio Signal Processing & IIR Notch Filter
+### 📻 Lab 4 - Real Audio Signal Processing & IIR Notch Filter
 
 **What it covers:**
 
@@ -101,19 +101,20 @@ filtered = scs.lfilter(b_notch, a_notch, audio)
 ---
 
 ## 📊 Skills Demonstrated
-- **Signal generation** — sine, dual-tone, noisy signals in Python
-- **FFT analysis** — magnitude spectrum, one-sided DFT, dB scaling
-- **FIR filter design** — lowpass, highpass, bandpass via `firwin()`
-- **IIR filter design** — notch filter via `iirnotch()` for interference removal
-- **Real audio processing** — `.wav` file loading, normalization, spectrogram
-- **Hardware verification** — Agilent oscilloscope measurements
-- **Data visualization** — waveforms, spectra, spectrograms with Matplotlib
+- **Signal generation** - sine, dual-tone, noisy signals in Python
+- **FFT analysis** - magnitude spectrum, one-sided DFT, dB scaling
+- **FIR filter design** - lowpass, highpass, bandpass via `firwin()`
+- **IIR filter design** - notch filter via `iirnotch()` for interference removal
+- **Real audio processing** -`.wav` file loading, normalization, spectrogram
+- **Hardware verification** - Agilent oscilloscope measurements
+- **Data visualization** - waveforms, spectra, spectrograms with Matplotlib
 
 ---
 
 ## 👩‍💻 About
 **Gaukhar Assyrzhanova**
-Industrial Engineering (IIoT) Student — Astana IT University
+Industrial Engineering (IIoT) Student - Astana IT University
+
 Academic Mobility: Hochschule Schmalkalden, Germany (Oct 2025 – Feb 2026)
 
 📧 gokass111@gmail.com
